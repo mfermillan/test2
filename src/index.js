@@ -15,7 +15,3 @@ app.use(require('./routes/rutas'));
 //Empezando el servidor
 app.listen(app.get('port'));
 console.log("mi primer sevidor");
-
-//data base
-
-//testing 
