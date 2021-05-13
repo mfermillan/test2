@@ -1,18 +1,18 @@
 const { Router } = require('express');
 const router = Router();
 
-const juegos =require('./data.json');
-console.log(juegos);
+const productos =require('./data.json');
+console.log(productos);
 
 router.get('/', (req,res) =>{
-    res.json(juegos);
+    res.json(productos);
 });
 
 router.get('/:id', (req,res) =>{
     const {id}= req.params;
-    juegos.forEach(juego => {
-        if(juego.id == id){
-            res.json(juego);
+    productos.forEach(producto => {
+        if(producto.id == id){
+            res.json(producto);
         }
     });
     console.log(id);

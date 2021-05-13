@@ -1,14 +1,30 @@
 [
     {
         "id":"1",
-        "title": "The legend of zelda",
-        "version": "Ocarina of time",
-        "genre": "Aventura"
+        "title": "Ajedrez",
+        "category": "Juegos didacticos",
+        "qty": "1 pieza",
+        "img": "IMG_6728"
     },
     {
         "id":"2",
-        "title": "Mario Bros",
-        "version": "Mario Kart",
-        "genre": "Carraras"
+        "title": "Arbolito",
+        "category": "Figuras",
+        "qty": "20 piezas",
+        "img": "IMG_6737"
+    },
+    {
+        "id":"3",
+        "title": "Gorras protectoras",
+        "category": "Micelaneos",
+        "qty": "1 pieza",
+        "img": "IMG_6740"
+    },
+    {
+        "id":"4",
+        "title": "Animales de la taiga",
+        "category": "Figuras",
+        "qty": "20 pieza",
+        "img": "IMG_6765"
     }
 ]
