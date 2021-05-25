@@ -1,0 +1,33 @@
+###
+
+GET http://localhost:3000/api/productos
+
+###
+
+POST http://localhost:3000/api/productos
+Content-Type: application/json
+
+{
+    "title": "Ajedrez",
+        "category": "Juegos didacticos",
+        "qty": "1",
+        "qty_name": "pieza",
+        "img": "IMG_6728"
+}
+
+###
+
+GET http://localhost:3000/api/productos/60ac7a9064a70c52b89fab19
+
+###
+
+DELETE http://localhost:3000/api/productos/60ac7d5816623b7be8968b64
+
+###
+
+PUT http://localhost:3000/api/productos/60ac7a9064a70c52b89fab19
+Content-Type: application/json
+
+{
+    "qty": "5"
+}

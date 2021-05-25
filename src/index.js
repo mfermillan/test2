@@ -1,7 +1,9 @@
+require('./database')
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const cors = require('cors');
+
 
 //Configuraciones
 app.set('port', 3000);
